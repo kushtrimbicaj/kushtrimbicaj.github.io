@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervimet</title>
+    <link rel="stylesheet" href="rezervimet.css">
+</head>
+<body>
+    <a href = "index.html"><button id="back"> <- Kthehu prapa</button></a>
+    <div class="container">
+        <h1>Caktimi i terminit  </h1>
+        <p>Ju lutem plotsoni fushat me poshte</p>
+    <form>
+        <label for="name">Emri:</label><br>
+            <input type="text" class="name" placeholder="Emri dhe Mbiemri" required><br>
+        <label for="dob">Data e lindjes:</label><br>
+            <input type="date" class="dob"><br>
+        <label for="phone">Numri i telefonit:</label><br>
+            <input type="text"><br>
+        <label for ="email">Email:</label><br>
+            <input type="text" class="email"><br>
+        <label for="address">Adresa:</label><br>
+            <input type="text" class="address" ><br>
+        <label for="data_rezervimit">Data e rezervimit:</label><br>
+            <input type="date" class="data_rezervimit">
+            <button type="submit" onclick="showConfirmation()">Cakto</button>
+            </div>
+    </form>
+    </div>
+    <script>
+        function showConfirmation() {
+            alert("Rezervimi u krye me sukses");
+        }
+    </script>
+</body>
+</html>

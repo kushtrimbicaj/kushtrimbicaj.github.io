@@ -1,0 +1,44 @@
+.login {
+    margin: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 3px solid #92DCE5;
+    display-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+
+
+
+}
+
+.container {
+    display: grid;
+    place-items: center;  
+    height: 100vh;
+}
+
+body {
+    background-color: #DEDEDE;
+    background-size: cover;
+}
+
+button {
+
+    margin-top: 10px;
+    background-color: #92DCE5;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+#password, #username {
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+}

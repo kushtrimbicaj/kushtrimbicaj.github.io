@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="authentication.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); validateLogin();">
+        <div class="container">
+            <div class="login">
+                <p>Sign In</p>
+                <input type="text" placeholder="Username" id="username" required><br>
+                <input type="password" placeholder="Password" id="password" required><br>
+                <button type="submit">Sign In</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -30,6 +30,7 @@ header {
 
 body {
     margin: 0px;
+    margin-bottom: none;
 }
 
 .nav {
@@ -112,12 +113,12 @@ button:hover {
 }
 
 .sherbimet {
+    padding-top: 100px;
     text-align: center;
     background-color: white;
     margin-top: -21px; 
     font-family: sans-serif;
-    display:
-    
+    margin-bottom: 100px;
 }
 
 .llojet {
